@@ -36,3 +36,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+ <div className="lg:px-10 px-0 w-full h-40 flex justify-between items-end">
+            <Link href={"/login"}>
+              <button className="bg-blue-500  text-white px-3 py-1 rounded-md">
+                <div className="flex items-center gap-x-1">
+                  <span>
+                    <TiArrowBack />
+                  </span>
+                  <span>Back</span>
+                </div>
+              </button>
+            </Link>
+            <button className="bg-blue-500 text-white px-3 py-1 rounded-md">
+              Update
+            </button>
+          </div>
